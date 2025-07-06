@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nova-oval-regular {
+  font-family: "Nova Oval", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #CCB383 ;
+    --cor-secundaria: #740001; 
+    --cor-destaque: #1E3226;
+    --cor-texto: #01080E;
+    --fonte-titulo: "Eagle Lake", serif;
+    --fonte-texto: "Nova Oval", system-ui;
+    --fundo: url(img)
+
+}
+
+body {
+    background: url('img/download\ \(1\)\ 1.svg') center/cover no-repeat;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: var(--fonte-texto);
+      border-radius: 15px;
+    
+}
+
+h1{
+    color: var(--cor-destaque);
+    font-family: var(--fonte-titulo);
+      border-radius: 15px;
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: #ffffff ;
+    border-top: 12px;
+    border: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    font-family: var(--fonte-texto);
+    text-align: center;
+    
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    border-top: 12px;
+}
